@@ -1,0 +1,127 @@
+acom -O3 -e 100 -work alu -2002  $dsn/src/TestBench/sixteen_bit_subtractor_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/OneDrive/Documents/GitHub/ece443_project1/ALU/src/TestBench/sixteen_bit_subtractor_TB.vhd
+# Compile Entity "sixteen_bit_subtractor_TB"
+# Compile Architecture "sixteen_bit_subtractor_TB" of Entity "sixteen_bit_subtractor_TB"
+# Error: COMP96_0019: TestBench/sixteen_bit_subtractor_TB.vhd : (24, 3): Keyword 'end' expected.
+# Error: COMP96_0016: TestBench/sixteen_bit_subtractor_TB.vhd : (24, 13): Design unit declaration expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work alu -2002  $dsn/src/TestBench/sixteen_bit_subtractor_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/OneDrive/Documents/GitHub/ece443_project1/ALU/src/TestBench/sixteen_bit_subtractor_TB.vhd
+# Compile Entity "sixteen_bit_subtractor_TB"
+# Compile Architecture "sixteen_bit_subtractor_TB" of Entity "sixteen_bit_subtractor_TB"
+# Error: COMP96_0019: TestBench/sixteen_bit_subtractor_TB.vhd : (24, 3): Keyword 'end' expected.
+# Error: COMP96_0016: TestBench/sixteen_bit_subtractor_TB.vhd : (24, 13): Design unit declaration expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work alu -2002  $dsn/src/TestBench/sixteen_bit_subtractor_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/OneDrive/Documents/GitHub/ece443_project1/ALU/src/TestBench/sixteen_bit_subtractor_TB.vhd
+# Compile Entity "sixteen_bit_subtractor_TB"
+# Compile Architecture "sixteen_bit_subtractor_TB" of Entity "sixteen_bit_subtractor_TB"
+# Error: COMP96_0019: TestBench/sixteen_bit_subtractor_TB.vhd : (24, 3): Keyword 'end' expected.
+# Error: COMP96_0016: TestBench/sixteen_bit_subtractor_TB.vhd : (24, 13): Design unit declaration expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work alu -2002  $dsn/src/TestBench/sixteen_bit_subtractor_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/OneDrive/Documents/GitHub/ece443_project1/ALU/src/TestBench/sixteen_bit_subtractor_TB.vhd
+# Compile Entity "sixteen_bit_subtractor_TB"
+# Compile Architecture "sixteen_bit_subtractor_TB" of Entity "sixteen_bit_subtractor_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+asim -O5 +access +r +m+sixteen_bit_subtractor sixteen_bit_subtractor structural
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work alu -2002  "$dsn/src/16-bit Subtractor.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/OneDrive/Documents/GitHub/ece443_project1/ALU/src/16-bit Subtractor.vhd
+# Compile Entity "sixteen_bit_subtractor"
+# Compile Architecture "structural" of Entity "sixteen_bit_subtractor"
+# Warning: ELAB1_0026: 16-bit Subtractor.vhd : (59, 0): There is no default binding for component "Sixteen_Bit_Adder". (Port "S" is not on the entity).
+# Compile success 0 Errors 1 Warnings  Analysis time :  31.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELBREAD: Warning: ELBREAD_0037 16-bit Subtractor.vhd (59): Component /sixteen_bit_subtractor/ADDER : Sixteen_Bit_Adder not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5529 kB (elbread=427 elab2=4962 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\emily\OneDrive\Documents\GitHub\ece443_project1\ALU\src\wave.asdb
+#  10:55 AM, Tuesday, October 17, 2023
+#  Simulation has been initialized
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+asim -O5 +access +r +m+sixteen_bit_subtractor sixteen_bit_subtractor structural
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELBREAD: Warning: ELBREAD_0037 16-bit Subtractor.vhd (59): Component /sixteen_bit_subtractor/ADDER : Sixteen_Bit_Adder not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5529 kB (elbread=427 elab2=4962 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\emily\OneDrive\Documents\GitHub\ece443_project1\ALU\src\wave.asdb
+#  10:56 AM, Tuesday, October 17, 2023
+#  Simulation has been initialized
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# VSIM: 1 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/emily/OneDrive/Documents/GitHub/ece443_project1/ALU/src/wave.asdb'.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+# VSIM: 1 object(s) traced.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work alu -2002  "$dsn/src/16-bit Subtractor.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/emily/OneDrive/Documents/GitHub/ece443_project1/ALU/src/16-bit Subtractor.vhd
+# Warning: COMP96_0003: Source file "C:/Users/emily/OneDrive/Documents/GitHub/ece443_project1/ALU/src/16-bit Subtractor.vhd" is empty.
+# Compile success 0 Errors 1 Warnings  Analysis time :  0.0 [ms]

@@ -3,35 +3,25 @@ Current Flow=Generic
 VCS=0
 version=4
 Current Config=compile
-
 [Configurations]
 compile=alu
-
 [Library]
 ALU=.\ALU\ALU.lib
-
 [$LibMap$]
 ALU=.
 Active_lib=
-
 [Settings]
 FLOW_TYPE=HDL
 LANGUAGE=VHDL
 REFRESH_FLOW=1
 FLOWTOOLS=NONE
 FAMILY=
-
 [SpecTracer]
 WindowVisible=0
-
 [HierarchyViewer]
 HierarchyInformation=
 ShowHide=ShowTopLevel
 Selected=
-
-[Groups]
-TestBench=1
-
 [Files]
 /Half Adder.vhd=-1
 /Full Adder.vhd=-1
@@ -40,11 +30,14 @@ TestBench=1
 /16-bit Multiplier.vhd=-1
 /16-bit Multiplexer.vhd=-1
 /ALU.vhd=-1
+/16-bit Multiplier.vhd.str=-1
+/wave.asdb=-1
 TestBench/half_adder_TB.vhd=-1
 TestBench/half_adder_TB_runtest.do=-1
 TestBench/full_adder_TB.vhd=-1
+TestBench/sixteen_bit_subtractor_TB.vhd=-1
 TestBench/full_adder_TB_runtest.do=-1
-
+/16-bit Subtractor.vhd=-1
 [Files.Data]
 .\src\Half Adder.vhd=VHDL Source Code
 .\src\Full Adder.vhd=VHDL Source Code
@@ -53,8 +46,50 @@ TestBench/full_adder_TB_runtest.do=-1
 .\src\16-bit Multiplier.vhd=VHDL Source Code
 .\src\16-bit Multiplexer.vhd=VHDL Source Code
 .\src\ALU.vhd=VHDL Source Code
+.\src\16-bit Multiplier.vhd.str=External File
+.\src\wave.asdb=Accelerated Waveform File
 .\src\TestBench\half_adder_TB.vhd=VHDL Test Bench
 .\src\TestBench\half_adder_TB_runtest.do=Macro
-
 .\src\TestBench\full_adder_TB.vhd=VHDL Test Bench
+.\src\TestBench\sixteen_bit_subtractor_TB.vhd=VHDL Test Bench
 .\src\TestBench\full_adder_TB_runtest.do=Macro
+.\src\16-bit Subtractor.vhd=VHDL Source Code
+[folders]
+name0=ALINT-PRO Workspaces
+directory0=C:\Users\emily\OneDrive\Documents\GitHub\ece443_project1\ALU\
+extension0=alintws
+name1=Coverage Databases
+directory1=C:\Users\emily\OneDrive\Documents\GitHub\ece443_project1\ALU\
+extension1=acdb
+name2=Dll Libraries
+directory2=C:\Users\emily\OneDrive\Documents\GitHub\ece443_project1\ALU\
+extension2=dll
+name3=Event Lists
+directory3=C:\Users\emily\OneDrive\Documents\GitHub\ece443_project1\ALU\
+extension3=lst
+name4=HTML Files
+directory4=C:\Users\emily\OneDrive\Documents\GitHub\ece443_project1\ALU\
+extension4=htm;html
+name5=Log Files
+directory5=C:\Users\emily\OneDrive\Documents\GitHub\ece443_project1\ALU\
+extension5=log;htm;xml;txt
+name6=Matlab/Simulink Files
+directory6=C:\Users\emily\OneDrive\Documents\GitHub\ece443_project1\
+extension6=m;mdl;slx
+name7=Memory Files
+directory7=C:\Users\emily\OneDrive\Documents\GitHub\ece443_project1\ALU\
+extension7=mem;mif;hex
+name8=PDF Files
+directory8=C:\Users\emily\OneDrive\Documents\GitHub\ece443_project1\ALU\
+extension8=pdf
+name9=Profiler Databases
+directory9=C:\Users\emily\OneDrive\Documents\GitHub\ece443_project1\ALU\
+extension9=tbp
+name10=Script Files
+directory10=C:\Users\emily\OneDrive\Documents\GitHub\ece443_project1\ALU\
+extension10=do;tcl;pl
+name11=Waveform Files
+directory11=C:\Users\emily\OneDrive\Documents\GitHub\ece443_project1\ALU\
+extension11=asdb;awc;asdbc;asdbe
+[Groups]
+TestBench=1

@@ -1,36 +1,35 @@
-Active-HDL 12.0.118.7745 2023-10-10 15:38:01
+Active-HDL 13.0.376.8320 2023-10-17 10:56:12
 
 Elaboration top modules:
-Architecture                  Behavioral(Full_Adder)
+Architecture                  structural(sixteen_bit_subtractor)
 
 
--------------------------------------------------------------------------------------------
-Entity     | Architecture | Library | Info | Compiler Version        | Compilation Options
--------------------------------------------------------------------------------------------
-Full_Adder | Behavioral   | alu     |      | 12.0.118.7745 (Windows) | -O3
-Half_Adder | Behavioral   | alu     |      | 12.0.118.7745 (Windows) | -O3
--------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+Entity                 | Architecture | Library | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------------------
+sixteen_bit_subtractor | structural   | alu     |      | 13.0.376.8320 (Windows64) | -O3
+xor_gate               | structural   | alu     |      | 13.0.376.8320 (Windows64) | -O3
+---------------------------------------------------------------------------------------------------------
 
--------------------------------------------------------------------------------------------
-VHDL Package              | Library | Info | Compiler Version        | Compilation Options
--------------------------------------------------------------------------------------------
-standard                  | std     |      |                         | <unavailable>
-TEXTIO                    | std     |      |                         | <unavailable>
-std_logic_1164            | ieee    |      |                         | <unavailable>
-std_logic_arith           | ieee    |      |                         | <unavailable>
-STD_LOGIC_UNSIGNED        | ieee    |      |                         | <unavailable>
--------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+VHDL Package                          | Library | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------------------
+standard                              | std     |      |                           | <unavailable>
+TEXTIO                                | std     |      | 13.0.376.8320 (Windows64) |  -2019
+std_logic_1164                        | ieee    |      | 13.0.376.8320 (Windows64) |  -2008
+std_logic_arith                       | ieee    |      | 13.0.376.8320 (Windows64) | <unavailable>
+---------------------------------------------------------------------------------------------------------
 
--------------------------------------------------------------------------------------------
-Library                   | Comment
--------------------------------------------------------------------------------------------
-alu                       | None
-ieee                      | Standard IEEE packages library
-std                       | Standard VHDL library
--------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim -O5 +access +r +m+Full_Adder Full_Adder Behavioral
+---------------------------------------------------------------------------------------------------------
+Library                               | Comment
+---------------------------------------------------------------------------------------------------------
+alu                                   | None
+ieee                                  | Standard IEEE packages library
+std                                   | Standard VHDL library
+---------------------------------------------------------------------------------------------------------
 
 
-The performance of simulation is reduced. Version EDU Edition
+Simulation Options: asim -O5 +access +r +m+sixteen_bit_subtractor sixteen_bit_subtractor structural
+
+
+The performance of simulation is reduced. Version Student Edition
